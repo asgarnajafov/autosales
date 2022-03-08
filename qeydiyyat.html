@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qeydiyyat</title>
+    <link rel="stylesheet" href="./css/qeydiyyat.css">
+</head>
+
+<h1>Qeydiyyat</h1>
+
+<body>
+    <style>
+body{
+    width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(download.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+    </style>
+    
+    
+    <form align="center">
+
+        <label>
+
+          
+            <input  required minlength="3" maxlength="10" placeholder="Ad" type="text">
+
+        </label>
+        <br>
+        <br>
+        <label>
+               
+               <input placeholder="Şifrə"   type="password">
+        </label>
+        <br> <br>
+        <label>
+              
+              <input placeholder="Email" type="email">
+        </label>
+        <br>
+        <br>
+        <label>
+            
+            <input placeholder="Əlaqə" type="tel">
+        </label>
+        <br>
+        <br>
+        <label>
+            
+            <input placeholder="Yaş" type="number">
+        </label>
+        <br><br>
+        
+        <label align="center" class="qeyd">
+            Profil
+            <input type="file">
+        </label>
+        <br><br>
+        <h3 class="qeyd">Səhifənin Dili</h3>
+        <label class="qeyd">
+            AZE
+            <input type="checkbox" >
+        </label>
+        <label class="qeyd">
+         RUS
+          <input type="checkbox">
+      </label>
+      <label class="qeyd">
+         EN
+          <input type="checkbox">
+      </label>
+      <h3 class="qeyd">cinsiniz</h3>
+      <label class="qeyd">
+          K
+          <input name="cins" type="radio">
+      </label>
+      <label class="qeyd">Q
+          <input name="cins" type="radio">
+      </label>
+      <br><br>
+      <label class="qeyd">
+          Şəhər
+          <select> 
+              <optgroup label="daxili seherler">
+                  <option>Baki</option> 
+                  <option>Seki</option> 
+                  <option>Quba</option>
+              </optgroup>
+              <optgroup label="xarici seherler">
+                  <option>Moskva</option> 
+                  <option>Berlin</option> 
+                  <option>Dublin</option>
+          </optgroup>
+          </select>
+      </label>
+      <br>
+      <br><br>
+     
+      <input value="Qeydiyyat" type="submit">
+   </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+
+git clone https://github.com/asgarnajafov/autosales.git
+
+git add .
+
+git commit -m "html le yigilib version 1.0.0"
+
+git push
+
+git config --global user.name "asgarnajafov"
+
+git config --global user.email "asgar.najafov.001@gmail.com"
