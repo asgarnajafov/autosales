@@ -1,0 +1,2 @@
+# autosales
+bu bir tapsiriqdi
